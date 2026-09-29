@@ -52,7 +52,8 @@
       "!apps/docs/next.config.ts",
       "!apps/docs/postcss.config.mjs",
       "!apps/docs/source.config.ts",
-      "!apps/docs/proxy.ts"
+      "!apps/docs/proxy.ts",
+      "!examples/tanstack-start-chat/src/routeTree.gen.ts"
     ]
   },
   "overrides": [
@@ -76,6 +77,17 @@
           "createError",
           "getRouterParam"
         ]
+      }
+    },
+    {
+      // TanStack Start renders the document shell, including <head>, in the root route
+      "includes": ["examples/tanstack-start-chat/src/routes/__root.tsx"],
+      "linter": {
+        "rules": {
+          "style": {
+            "noHeadElement": "off"
+          }
+        }
       }
     }
   ]

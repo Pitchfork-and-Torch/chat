@@ -28,6 +28,8 @@ Create an [AI Gateway API key](https://vercel.com/docs/ai-gateway/authentication
 
 `createTanStackTools` needs zod 4.2 or newer. TanStack AI converts tool input schemas to JSON Schema through the Standard JSON Schema interface, which zod added in 4.2; on an older version `createTanStackTools` throws with a message that says so. `toTanStackMessages` has no zod requirement.
 
+For a runnable version, see the [TanStack Start example](https://github.com/vercel/chat/tree/main/examples/tanstack-start-chat), a Slack bot that uses `toTanStackMessages`, a TanStack AI server tool, and the AI Gateway adapter.
+
 ## Converting history
 
 Fetch recent messages the same way you would for [`toAiMessages`](/docs/ai/to-ai-messages), convert them, and hand the array to `chat()`. The stream `chat()` returns can be posted straight back to the thread, as described in [Streaming](/docs/streaming#tanstack-ai-integration).

@@ -1,0 +1,20 @@
+# Build output
+.output
+.nitro
+.tanstack
+.vinxi
+dist
+
+# Dependencies
+node_modules
+
+# Env
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Misc
+.DS_Store
