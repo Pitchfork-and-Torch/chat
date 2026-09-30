@@ -157,6 +157,10 @@ To preview docs locally:
 pnpm --filter docs dev
 ```
 
+### Writing with AI coding agents
+
+If an AI coding agent writes any of your contribution's prose, it must use the [`technical-writer` skill](../.agents/skills/technical-writer/SKILL.md). That covers docs pages, READMEs, changesets, commit messages, PR descriptions, and issues. The skill sets the voice and editorial standards for this repo and checks technical claims against the source. Agents that read this repo's `AGENTS.md` pick up the requirement automatically.
+
 ## Preview Branch Testing
 
 The example app includes a proxy that can forward webhook requests to a preview branch deployment. This allows testing preview branches with real webhook traffic from Slack/Teams/GChat.

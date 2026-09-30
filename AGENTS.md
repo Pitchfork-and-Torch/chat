@@ -88,6 +88,7 @@ For production-traffic replay tests, see [packages/integration-tests/fixtures/re
 
 ## Docs and releases
 
+- Always use the `technical-writer` skill ([.agents/skills/technical-writer/SKILL.md](.agents/skills/technical-writer/SKILL.md)) when you write or edit prose for this repo, including docs pages, READMEs, changesets, commit messages, PR descriptions, and issues.
 - User-facing docs: `apps/docs/content/` → [chat-sdk.dev/docs](https://chat-sdk.dev/docs). Update relevant pages when behavior, public APIs, or env vars change.
 - Behavioral package changes need a changeset (`pnpm changeset`). Docs-only, tests-only, CI, and `examples/*` changes do not.
 

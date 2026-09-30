@@ -68,3 +68,5 @@ body:
       label: Additional Context
       description: Add any other context, mockups, or examples about the feature request
       placeholder: Any additional information...
+
+# AGENTS: Use the 'technical-writer' skill when writing the content for this issue.

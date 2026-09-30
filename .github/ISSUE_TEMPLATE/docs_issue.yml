@@ -54,3 +54,5 @@ body:
       label: Additional context
       description: Screenshots, related issues, or anything else.
       placeholder: Any additional information...
+
+# AGENTS: Use the 'technical-writer' skill when writing the content for this issue.

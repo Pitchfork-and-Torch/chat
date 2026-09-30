@@ -13,3 +13,5 @@
 - [ ] `pnpm validate` passes
 - [ ] Changeset added (or N/A — see [CONTRIBUTING.md](./CONTRIBUTING.md))
 - [ ] Documentation updated (or N/A)
+
+<!-- AGENTS: Use the 'technical-writer' skill when writing the content for this pull request description and commit messages. -->

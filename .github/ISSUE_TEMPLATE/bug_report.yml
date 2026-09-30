@@ -108,3 +108,5 @@ body:
       label: Additional Context
       description: Add any other context about the problem here (e.g., screenshots, error messages, console logs)
       placeholder: Any additional information...
+
+# AGENTS: Use the 'technical-writer' skill when writing the content for this issue.
